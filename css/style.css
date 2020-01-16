@@ -63,10 +63,28 @@ header .container a img{
     padding-bottom: 128px;
     background-color: #ffffff;
 }
-.video{
+.VBcontainer{
     max-width: 566px;
+    margin: auto;
+}
+.video{
     height: 346px;
     background-color: #e7e7e7;
     position: relative;
-    margin: auto;
+    margin-bottom: 28px;
+}
+.smallcontainer .videoblock h2{
+    font-size: 13px;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    color: #98161b;
+    display: inline-block;
+}
+.smallcontainer .videoblock h2:last-child{
+    display: block;
+}
+.smallcontainer .videoblock span{
+    font-size: 13px;
+    font-family: 'Arvo', serif;
+    color: #7d7d7d;
 }
