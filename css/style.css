@@ -46,6 +46,8 @@ header .container a img{
 .smallcontainer{
     max-width: 710px;
     margin: auto;
+    position: relative;
+    top:70px;
 }
 .smallcontainer .description h1{
     font-size: 20px;
@@ -62,11 +64,12 @@ header .container a img{
     padding-top: 62px;
     padding-bottom: 128px;
     background-color: #ffffff;
+    position: relative;
+    z-index: 1;
 }
 .VBcontainer{
     max-width: 566px;
     margin: auto;
-    position: relative;
 }
 .video{
     height: 346px;
@@ -98,4 +101,11 @@ header .container a img{
     font-family: 'Arvo', serif;
     font-weight: 800;
     color: #98161b;
+}
+footer{
+    border-top: solid #3f0002 32px;
+    background-color: #000000;
+    height: 450px;
+    position: relative;
+    z-index: 0;
 }
